@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bruno Ace", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6b6b6b;
+}
+
+.container {
+  position: relative;
+  max-width: 600px;
+  min-height: 500px;
+  width: 100%;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #282828;
+  box-shadow: 0px 0px 25px 25px #dcdcdc33;
+}
+
+.display {
+  height: 80px;
+  width: 100%;
+  border: none;
+  text-align: right;
+  margin-bottom: 10px;
+  border-radius: 5px;  
+  padding: 10px;   
+  font-size: 26px; 
+  color: #000e1a;
+  background-color: #e0e3eb;
+  pointer-events: none;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 400px;
+}
+
+.buttons button {
+  padding: 10px;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.buttons button:active {
+  transform: scale(0.995);
+}
+
+.Operator {
+  color: #fff;
+  background-color: #777777;
+}
+
+.Important {
+  color: #fff;
+  background-color: #ae0000;
+}
